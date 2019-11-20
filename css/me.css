@@ -1,0 +1,133 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+section.me h1 {
+    font-family: "futura-pt", sans-serif !important;
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+}
+
+section.contact h2 {
+    font-family: Circular-Medium, sans-serif;
+    line-height: 1.2 !important;
+    font-size: 36px;
+}
+
+section h3, h4 {
+
+    font-weight: 300;
+}
+
+.resume {
+    margin: 35px 0;
+    font-family: "Futura PT", sans-serif;
+}
+
+.contact {
+    background-color: #000000;
+    padding: 60px 0 20px;
+}
+
+.summary {
+    max-width: 675px;
+    margin: 40px auto 90px;
+    text-align: center;
+}
+
+.summary p {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+
+.contact p.phone, p.email {
+    font-family: Circular-Light, sans-serif;
+    font-size: 1.8em;
+}
+
+@media only screen and (max-width: 320px) {
+
+    .contact p.phone, p.email { font-size: 1.7em !important; }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .int {
+        background: none !important;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 750px) and (min-width: 400px) {
+
+    section.me h1 {
+
+        font-size: 40px !important;
+        margin: 20px 0;
+    }
+
+    section.me h4 {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 399px) and (min-width: 321px) {
+
+    section.me h1 {
+
+        font-size: 35px !important;
+        margin: 10px 0;
+    }
+
+    section.me h4 {
+        margin-left: 100px;
+    }
+
+    section.int {
+        padding-top: 30px !important;
+        margin-top: 0 !important;
+    }
+
+    h3.text-medium {
+        font-weight: 600 !important;
+    }
+}
+.bottom-resume {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500 !important;
+    font-family: "Futura PT", sans-serif !important;
+    text-decoration: none;
+}
+
+.bottom-resume:hover {
+    background-color: #00a9af !important;
+    color: #fff !important;
+    border: 1px solid #00a9af !important;
+}
+
+a.bottom-resume:visited {
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 751px) {
+
+    .int img.m-t-30 {
+        max-width: 64%;
+    }
+
+    .lang {
+        background-image:url(../images/languages2.jpg) !important;
+    }
+}

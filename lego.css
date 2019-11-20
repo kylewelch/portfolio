@@ -1,0 +1,365 @@
+.brandon {
+    font-family: "futura-pt", sans-serif !important;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+section h1, h4 {
+    text-align: center;
+    font-family: "futura-pt", sans-serif !important;
+    letter-spacing: 4px;
+}
+
+section h4 {
+    font-weight: 400;
+    font-size: 1em;
+    color: #333;
+}
+
+.overview, .time, .chatbots, .formula-intro, .experience {
+    background-color: #000000;
+}
+
+.flip {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+}
+
+.flip h3 {
+    font-family: "Open Sans", sans-serif;
+    max-width: 80%;
+    font-weight: 300;
+}
+.flip img {
+    max-width: 60%;
+}
+.summary {
+    max-width: 675px;
+    margin: 40px auto 40px;
+    text-align: center;
+}
+
+.summary p {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+.overview span {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+.overview-point {
+    max-width: 220px;
+    margin: auto;
+}
+
+.overview-point h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+}
+
+.overview-point img {
+    max-width: 70px;
+    margin-bottom: 20px;
+}
+
+.post-content-details .post-title h3 {
+    font-weight: 800 !important;
+    font-size: 23px !important;
+    color: #333 !important;
+}
+
+.post-content-details {
+    padding: 0 15px !important;
+    margin-top: -8px;
+}
+
+.proto-title {
+    border-radius: 6px 6px 0 0;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.18);
+    text-align: center;
+    padding: 13px 0;
+    z-index: 100;
+    position: relative;
+    width: 87%;
+    margin: auto;
+}
+
+.proto-title h3{
+    color: #ffffff;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.proto-title p{
+    color: #ffffff;
+    margin-bottom: 0 !important;
+}
+
+.proto-details {
+    color: #ffffff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.18);
+    z-index: 2;
+    margin: -15px auto 0;
+    padding: 36px 36px 1px;
+    position: relative;
+    width: 87%;
+    background-color: #ffffff;
+}
+.post-image {
+    text-align: center;
+}
+.post-image img {
+    width: 85%;
+}
+.proto-details p {
+    font-family: "Open Sans", sans-serif;
+}
+.proto-details h4 {
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-size: 1.4em;
+}
+
+.proto-title img {
+    max-width: 60px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.color-gr {
+    background-color: #232323;
+}
+.color-or {
+    background-color: #FF682F;
+}
+
+.color-te {
+    background-color: #00D9D8;
+}
+
+.color-bl {
+    background-color: #00A8FF;
+}
+
+.color-pu {
+    background-color: #9B64FF;
+}
+
+.color-re {
+    background-color: #FF3A69;
+}
+
+.criteria h2 {
+    font-family: "futura-pt",sans-serif !important;
+    font-weight: 700;
+    margin: 65px auto 0 !important;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.users h3 {
+    font-family: "futura-pt",sans-serif !important;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+    margin-left: 70px !important;
+}
+
+.users h5 {
+    font-family: "futura-pt",sans-serif !important;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+    margin-left: 70px !important;
+    letter-spacing: 1px;
+}
+
+.users p {
+    margin-left: 70px !important;
+    margin-top: 10px !important;
+    font-family: "Open Sans", sans-serif;
+    max-width: 360px;
+}
+.users span {
+    font-weight: 700;
+}
+
+section.users {
+    padding: 50px 0;
+}
+
+
+.reverse {
+    margin-left: 70%;
+}
+
+
+.efficacy {
+    margin-left: 40px;
+}
+
+.simplicity {
+    margin-left: 70px;
+}
+
+.human span {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+    color: #696f6f;
+}
+
+.image-absolute img {
+    max-width: 460px;
+}
+
+.human .m-b-40 {
+    margin-top: 160px;
+}
+
+.assessment {
+    max-width: 600px !important;
+}
+
+.human h3 {
+    font-family: "futura-pt", sans-serif;
+    font-size: 2em;
+}
+
+span.lead {
+    font-size: 20px;
+}
+
+.comic-panel {
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.10);
+    box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.10);
+}
+
+.formula {
+    padding-top: 0 !important;
+}
+.formula h2 {
+    font-family: "Futura PT", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+.comic-panel h3 {
+    font-family: "Futura PT", sans-serif;
+    color: #222222 !important;
+}
+
+.sigma {
+    max-width: 90%;
+    margin: auto;
+}
+
+.bot {
+    max-width: 50%;
+}
+
+.bot-shot {
+    max-width: 75%;
+    margin: auto;
+}
+
+.quote {
+    max-width: 575px;
+    margin: 40px auto 40px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.quote p {
+font-size: 20px;
+line-height: 1.8;
+font-family: "Open Sans", sans-serif;
+font-weight: 200;
+}
+
+.human span.lead {
+    font-size: 16px;
+}
+
+.mobile-title {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .users {
+        background-image:url(images/user2.jpg) !important;
+    }
+
+}
+
+
+/*
+@media all and (orientation: portrait) and (max-width: 500px) {
+    .flip {
+        display: block;
+    }
+}
+*/
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px !important;
+    }
+    h2 {
+        font-size: 25px !important;
+    }
+    
+    h3 {
+        font-size: 20px !important;
+    }
+    .chatbots, .human, .human-touch, .chat-summary {
+        display: none;
+    }
+    
+    .two-sigma {
+        text-align: center !important;
+        padding: 0 15px !important;
+        margin: 0 !important;
+    }
+    .experience {
+        padding-bottom: 0 !important;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .desktop-title {
+        display: none;
+    }
+    .mobile-title {
+        display: block;
+    }
+
+    .lego-sub-head {
+        display: none;
+    }
+}

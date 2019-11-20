@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Circular-Black;
+    src: url("fonts/CircularCustCapNum-Black.otf");
+}
+
+@font-face {
+    font-family: Circular-Bold;
+    src: url("fonts/CircularCustCapNum-Bold.otf");
+}
+
+@font-face {
+    font-family: Circular-Book;
+    src: url("fonts/CircularCustCapNum-Book.otf");
+}
+
+@font-face {
+    font-family: Circular-Light;
+    src: url("fonts/CircularCustCapNum-Light.otf");
+}
+
+@font-face {
+    font-family: Circular-Medium;
+    src: url("fonts/CircularCustCapNum-Medium.otf");
+}
+
+.html {
+    font-family: Circular-Light, sans-serif;
+}
+.home {
+    padding-top: 40px;
+}
+
+.image-absolute img {
+    max-width: 560px;
+    margin-left: 25px;
+}
+
+h1, h2 {
+    font-family: Circular-Medium, "Open Sans", sans-serif;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.intro {
+    padding: 5px;
+}
+
+.intro h2 {
+ font-family: Circular-Book, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.lead:hover {
+    cursor: default;
+}
+
+ul.lead li {
+    position: relative;
+    z-index: 100;
+    line-height: 1.6;
+}
+
+li span {
+    position: relative;
+    z-index: 0;
+}
+
+.specializations, .specializations-mobile li {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.specializations-mobile {
+    display: none !important;
+    margin: auto;
+    width: 180px;
+}
+
+.teal {
+    color: #32b3b6 !important;
+}
+
+.lead-in {
+    font-size: 22px;
+}
+
+body {
+    background: linear-gradient(to right, #e2e1e2, #ffffff);
+}
+
+/*
+h3 {
+    margin: 0;
+}
+
+.wrapper{
+    width: 500px;
+
+    margin: 150px auto;
+}
+.wrapper h1{
+    font-size: 40px;
+    font-weight: bold;
+
+    text-align: center;
+    padding: 20px 0px;
+}
+.accordion{
+    width: 500px;
+    padding: 25px;
+}
+.single-accordion{
+    height: 35px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    -webkit-transition: all 1s;
+}
+.single-accordion:hover{
+    height: 120px;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+}
+.single-accordion h3:hover{
+    cursor: pointer;
+}
+.single-accordion h2{
+    color: green;
+    font-size: 30px;
+    font-variant: small-caps;
+    line-height: 35px;
+}
+.single-accordion p{
+    line-height: 25px;
+    color: #333;
+    text-align: justify;
+    padding: 10px;
+}
+*/
+
+.static {
+    margin-right: 10px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #dee0e1;
+}
+.pulse {
+    margin-right: 10px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #43c0bf;
+    box-shadow: 0 0 0 rgba(67,192,191, 0.4);
+    animation: pulse 2s infinite;
+}
+.pulse:hover {
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(67,192,191, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(67,192,191, 0.4);
+        box-shadow: 0 0 0 0 rgba(67,192,191, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .intro, .visuals {
+        text-align: center;
+        margin: 0 auto !important;
+        padding: 0;
+    }
+
+    .list-div {
+        width: 270px;
+        margin: 12px auto 30px;
+    }
+
+    .list-div ul {
+        margin-left: -30px;
+    }
+
+    .image-absolute {
+        position: relative !important;
+        width: 95% !important;
+        margin: 20px auto 5px !important;
+    }
+
+    .image-absolute img {
+        width: 95%;
+        margin: auto !important;
+    }
+
+    .specializations {
+        display: none;
+    }
+
+    .specializations-mobile {
+        display: block !important;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .image-absolute {
+        height: 350px;
+    }
+}

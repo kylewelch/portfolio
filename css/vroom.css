@@ -1,0 +1,258 @@
+
+
+
+.overview-screenshot-section {
+    text-align: center;
+}
+
+.overview-screenshot-section h2 {
+    margin: 80px auto 30px;
+}
+
+.main-menu a {
+    font-family: Circular-Light, sans-serif;
+}
+
+.summary ol {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: Circular-Light, sans-serif;
+    font-weight: 200;
+    color: #696f6f;
+}
+
+.img-container {
+    max-width: 900px;
+}
+
+.phase-2 img {
+    margin-bottom: 80px;
+}
+
+.phase-2, .phase-3 {
+    text-align: center;
+}
+
+.phase-2 h2, .phase-3 h2 {
+    margin-bottom: 30px;
+    font-family: "futura-pt", sans-serif;
+}
+
+h2.final-point {
+    margin-bottom: 40px;
+}
+/*
+.task-card-background {
+    background-color: #f2f2f2;
+    padding: 25px 0;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.task-card {
+    width: 670px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, .2) 0 1px 6px 0;
+    transition: all .3s;
+    height: 85px;
+    border-radius: 3px;
+}
+
+.expanded {
+    height: 250px;
+    background-color: #f8f8f8;
+}
+
+.task-card-status {
+    width: 670px;
+    height: 1px;
+    opacity: 0;
+    background-color: #2b60df;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #ffffff;
+    font-family: Circular-Medium, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.showStatus {
+    height: 38px;
+    opacity: 1;
+}
+
+.task-card-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.task-card-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 585px;
+    background-color: #ffffff;
+}
+
+.task-card-content:hover {
+    background-color: #f8f8f8;
+}
+
+.task-card:hover {
+    cursor: pointer;
+}
+
+.task-card-info {
+    display: flex;
+    padding: 24px;
+}
+
+.task-card-name {
+    margin-left: 12px;
+}
+
+.task-card-type {
+    font-family: Circular-Medium, sans-serif;
+    font-size: 16px;
+    opacity: .84;
+    margin: 0;
+    color: #000000;
+    line-height: 22px;
+}
+
+.task-card-vin {
+    font-family: Circular-Book, sans-serif;
+    font-size: 13px;
+    color: #9da9ac;
+    margin: 0;
+    line-height: 15px;
+}
+
+.task-card-description {
+    font-family: Circular-Book, sans-serif;
+    font-size: 13px;
+    opacity: .7;
+    color: rgba(0,0,0,.8);
+    max-width: 345px;
+    line-height: 17px;
+}
+
+.task-card-start {
+    text-align: center;
+    background-color: #ffffff;
+    width: 85px;
+    border-left: 1px solid #e0e0e0;
+    height: 85px;
+    line-height: 85px;
+    font-size: 16px;
+    font-family: Circular-Book, sans-serif;
+    color: rgba(0,0,0,.8);
+    transition: all .3s;
+}
+
+.task-card-start-btn {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-btn {
+    height: 85px;
+}
+
+.task-card-hold-btn {
+    border-top: 1px solid #e0e0e0;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.task-card-start-btn:hover {
+    background-color: #2b60df;
+    cursor: pointer;
+    color: #ffffff;
+
+    border-left: none;
+}
+
+.task-card-hold-btn:hover {
+    background-color: #db3831;
+    cursor: pointer;
+    color: #ffffff;
+
+    border-top: none;
+}
+*/
+
+.problems-overview {
+    text-align: left;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+@font-face {
+    font-family: Circular-Black;
+    src: url(../fonts/CircularCustCapNum-Black.otf);
+}
+
+@font-face {
+    font-family: Circular-BlackItalic;
+    src: url(../fonts/CircularCustCapNum-BlackItalic.otf);
+}
+
+@font-face {
+    font-family: Circular-Bold;
+    src: url(../fonts/CircularCustCapNum-Bold.otf);
+}
+
+@font-face {
+    font-family: Circular-BoldItalic;
+    src: url(../fonts/CircularCustCapNum-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: Circular-Book;
+    src: url(../fonts/CircularCustCapNum-Book.otf);
+}
+
+@font-face {
+    font-family: Circular-BookItalic;
+    src: url(../fonts/CircularCustCapNum-BookItalic.otf);
+}
+
+@font-face {
+    font-family: Circular-Medium;
+    src: url(../fonts/CircularCustCapNum-Medium.otf);
+}
+
+@font-face {
+    font-family: Circular-MediumItalic;
+    src: url(../fonts/CircularCustCapNum-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: Circular-Light;
+    src: url(../fonts/CircularCustCapNum-Light.otf);
+}
+
+@font-face {
+    font-family: Circular-LightItalic;
+    src: url(../fonts/CircularCustCapNum-LightItalic.otf);
+}
